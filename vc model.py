@@ -30,3 +30,17 @@ def vc_dimension(points):
 points = [(1, 1), (2, 2), (3, 3), (4, 4)]
 dimension = vc_dimension(points)
 print(f"VC dimension: {dimension}")
+
+
+
+"""Vapnik-Chervonenkis Dimension
+The Vapnik-Chervonenkis (VC) dimension is a measure of the capacity of a hypothesis set to
+fit different data sets. It was introduced by Vladimir Vapnik and Alexey Chervonenkis in the 
+1970s and has become a fundamental concept in statistical learning theory. The VC dimension 
+is a measure of the complexity of a model, which can help us understand how well it can fit 
+different data sets.
+
+The VC dimension of a hypothesis set H is the largest number of points that can be shattered
+by H. A hypothesis set H shatters a set of points S if, for every possible labeling of the points 
+in S, there exists a hypothesis in H that correctly classifies the points. In other words, 
+a hypothesis set shatters a set of points if it can fit any possible labeling of those points."""
